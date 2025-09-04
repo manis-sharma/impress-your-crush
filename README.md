@@ -29,7 +29,7 @@ This project is designed to impress your crush with smooth animations, backgroun
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48772e41-e0da-4324-9f6d-616c767d3b33" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3ecfed14-3016-4273-aed0-039f91b0b17c" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ed91a0f-729e-4b37-8553-3ac87e666f88" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ebc424d-5cc2-4dce-8d4c-16cff912aab1" />
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6cdae3c2-9646-4746-8e5c-b3e9a7458216" />
 
 
