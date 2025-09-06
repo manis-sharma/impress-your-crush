@@ -1,86 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Something Special for You</title>
-  <meta name="description" content="A playful, romantic mini-site with a surprise, floating hearts, music, and a fun proposal moment." />
-  <meta name="theme-color" content="#ff4d6d" />
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <canvas id="hearts" aria-hidden="true"></canvas>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Something Special for You</title>
+    <meta
+      name="description"
+      content="A playful, romantic mini-site with a surprise, floating hearts, music, and a fun proposal moment."
+    />
+    <meta name="theme-color" content="#ff4d6d" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-  <!-- Loading / Start Screen -->
-  <div id="loading" class="loading" role="status" aria-live="polite">
-    <div class="loader card">
-      <h1>Loading something special for you…</h1>
-      <div class="dots"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
-      <p>Hint: turn up your volume.</p>
-      <button id="startBtn" class="btn btn-primary">Start</button>
+  <body>
+    <canvas id="hearts" aria-hidden="true"></canvas>
+
+    <!-- Loading / Start Screen -->
+    <div id="loading" class="loading" role="status" aria-live="polite">
+      <div class="loader card">
+        <h1>Loading something special for you…</h1>
+        <div class="dots">
+          <span class="dot"></span><span class="dot"></span
+          ><span class="dot"></span>
+        </div>
+        <p>Hint: turn up your volume.</p>
+        <button id="startBtn" class="btn btn-primary">Start</button>
+      </div>
     </div>
-  </div>
 
-  <div class="wrap">
-    <main class="card" id="app" aria-live="polite">
-      <!-- Step 1 -->
-      <section id="step1" class="step show">
-        <h1>For you, because you’re uniquely you</h1>
-        <p id="line1">I like the way your smile rewrites my day.</p>
-        <p id="line2" style="opacity:.05">Your presence feels like home even in a crowd.</p>
-        <p id="line3" style="opacity:.05">Every song is better when you’re the reason.</p>
-        <div style="margin-top:14px">
-          <button id="toProposal" class="btn btn-primary">Continue</button>
-        </div>
-      </section>
+    <div class="wrap">
+      <main class="card" id="app" aria-live="polite">
+        <!-- Step 1 -->
+        <section id="step1" class="step show">
+          <h1>For you, because you’re uniquely you</h1>
+          <p id="line1">I like the way your smile rewrites my day.</p>
+          <p id="line2" style="opacity: 0.05">
+            Your presence feels like home even in a crowd.
+          </p>
+          <p id="line3" style="opacity: 0.05">
+            Every song is better when you’re the reason.
+          </p>
+          <div style="margin-top: 14px">
+            <button id="toProposal" class="btn btn-primary">Continue</button>
+          </div>
+        </section>
 
-      <!-- Step 2 -->
-      <section id="step2" class="step">
-        <h1>Will you be mine?</h1>
-        <p>Be honest. Your heart already answered.</p>
-        <div class="actions" id="actionArea" style="height:96px">
-          <button id="yesBtn" class="btn btn-primary">Yes</button>
-          <button id="noBtn" class="btn btn-ghost">No</button>
-        </div>
-      </section>
+        <!-- Step 2 -->
+        <section id="step2" class="step">
+          <h1>Will you be mine?</h1>
+          <p>Be honest. Your heart already answered.</p>
+          <div class="actions" id="actionArea" style="height: 96px">
+            <button id="yesBtn" class="btn btn-primary">Yes</button>
+            <button id="noBtn" class="btn btn-ghost">No</button>
+          </div>
+        </section>
 
-      <!-- Step 3 -->
-      <section id="step3" class="step">
-        <h1>I knew you love me ❤️</h1>
-        <p>Keep this page. It’s our tiny universe.</p>
+        <!-- Step 3 -->
+        <section id="step3" class="step">
+          <h1>I knew you love me ❤️</h1>
+          <p>Keep this page. It’s our tiny universe.</p>
 
-        <!-- Heart Collage -->
-        <div class="heart-collage">
-          <img src="assets/photo (1).jpg" alt="Your smile" />
-          <img src="assets/photo (2).jpg" alt="Candid moment" />
-          <img src="assets/photo (3).jpg" alt="Favorite place" />
-          <img src="assets/photo (4).jpg" alt="Another favorite" />
-        </div>
-        <canvas id="sparkles"></canvas>
+          <!-- Heart Collage -->
+          <div class="heart-collage">
+            <img src="assets/photo (1).jpg" alt="Your smile" />
+            <img src="assets/photo (2).jpg" alt="Candid moment" />
+            <img src="assets/photo (3).jpg" alt="Favorite place" />
+            <img src="assets/photo (4).jpg" alt="Another favorite" />
+          </div>
+          <canvas id="sparkles"></canvas>
 
-        <div style="margin-top:20px">
-          <button id="toStep4" class="btn btn-primary">One More Surprise</button>
-        </div>
-      </section>
+          <div style="margin-top: 20px">
+            <button id="toStep4" class="btn btn-primary">
+              One More Surprise
+            </button>
+          </div>
+        </section>
 
-      <!-- Step 4 -->
-      <section id="step4" class="step">
-        <h1>Reasons Why You’re My Only Choice 💖</h1>
-        <ul style="text-align:left; max-width:500px; margin:20px auto; line-height:1.6; color:var(--muted);">
-          <li>Your laughter is my favorite soundtrack.</li>
-          <li>Even silence feels special with you.</li>
-          <li>Every dream of mine has your place reserved.</li>
-          <li>I don’t need perfection, I just need you.</li>
-        </ul>
-        <p style="margin-top:14px">So… are you ready for our forever story? 🌹</p>
-      </section>
-    </main>
-  </div>
+        <!-- Step 4 -->
+        <section id="step4" class="step">
+          <h1>Reasons Why You’re My Only Choice 💖</h1>
+          <ul
+            style="
+              text-align: left;
+              max-width: 500px;
+              margin: 20px auto;
+              line-height: 1.6;
+              color: var(--muted);
+            "
+          >
+            <li>Your laughter is my favorite soundtrack.</li>
+            <li>Even silence feels special with you.</li>
+            <li>Every dream of mine has your place reserved.</li>
+            <li>I don’t need perfection, I just need you.</li>
+          </ul>
+          <p style="margin-top: 14px">
+            So… are you ready for our forever story? 🌹
+          </p>
+        </section>
+      </main>
+    </div>
 
-  <!-- Background music -->
-  <audio id="bgm" src="assets/music.mp3" preload="auto" loop></audio>
-  <button id="audioToggle" class="audio-toggle" aria-pressed="true">🔊 Music: On</button>
+    <!-- Background music -->
+    <audio id="bgm" src="assets/music.mp3" preload="auto" loop></audio>
+    <button id="audioToggle" class="audio-toggle" aria-pressed="true">
+      🔊 Music: On
+    </button>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
