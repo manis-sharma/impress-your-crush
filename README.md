@@ -3,7 +3,7 @@
 An interactive and playful proposal website built with **HTML, CSS, and JavaScript**.  
 This project is designed to impress your crush with smooth animations, background music, playful "Yes/No" buttons, and a beautiful photo gallery section.  
 
-✨ Live Demo: [impress-your-crush](https://impress-your-crush-alpha.vercel.app/)
+✨ Live Demo: [impress-your-crush](https://manishey.vercel.app/)
 
 ---
 
