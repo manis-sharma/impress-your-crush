@@ -55,3 +55,5 @@ cd crush-proposal-website
 4. Add your crush’s pictures inside assets/ and update the filenames in index.html
 
 5. Open index.html in your browser 🎉
+
+
