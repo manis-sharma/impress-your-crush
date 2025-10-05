@@ -132,3 +132,6 @@ p { font-size: clamp(16px, 2.1vw, 18px); margin: 8px 0; color: var(--muted); }
   .heart-collage { height: 240px; max-width:260px; }
   .heart-collage img { width:100px; height:100px; }
 }
+
+
+
