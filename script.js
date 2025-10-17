@@ -65,7 +65,6 @@ function removePhoto(index) {
 continueBtn.addEventListener('click', () => {
   if (uploadedPhotos.length === 4) {
     show(step1);
-    playMusic();
     loading.classList.add('hide');
     revealLines();
   }
@@ -88,6 +87,7 @@ function playMusic() {
 
 startBtn.addEventListener('click', () => {
   loading.classList.add('hide');
+  playMusic(); // start music on clear user click
 });
 
 function show(step) {
