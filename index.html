@@ -98,10 +98,11 @@
   </div>
 
   <!-- Background music -->
-  <audio id="bgm" loop>
-    <source src="assets/music.mp3" type="audio/mp3">
-  </audio>
-  <button id="audioToggle" class="audio-toggle" aria-pressed="false">🔈 Music: Off</button>
+<audio id="bgm" loop preload="auto">
+  <source src="assets/music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<button id="audioToggle" class="audio-toggle" aria-pressed="false">🔈 Music: Off</button>
 
   <script src="script.js"></script>
 </body>
