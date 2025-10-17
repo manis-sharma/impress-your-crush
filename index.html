@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>impress your crush </title>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>impress your crush</title>
+  <title>Something Special for You - Romantic Proposal</title>
   <meta name="description" content="Create a personalized romantic proposal with your own photos. A playful, interactive mini-site with floating hearts, music, and a fun proposal moment." />
-  <meta name="keywords" content="romantic proposal, love message, personalized gift, relationship goals, photo collage" />
-  <meta name="author" content="Love & Romance" />
-  <meta name="theme-color" content="#ff4d6d" />
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Something Special for You - Romantic Proposal" />
-  <meta property="og:description" content="Create a personalized romantic proposal with your own photos" />
-  
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:title" content="Something Special for You" />
-  <meta property="twitter:description" content="Create a personalized romantic proposal with your own photos" />
+  <link rel="stylesheet" href="styles.css">
 </head>
-<link rel="stylesheet" href="styles.css">
 <body>
   <canvas id="hearts" aria-hidden="true"></canvas>
 
@@ -115,14 +96,13 @@
       </section>
     </main>
   </div>
-  <audio id="background-music" loop>
-    <source src="music.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</body>
-<script src="script.js"></script>
-<body>
-    <a href="#" id="contact-link">
-        <button id="contact-btn">Contact</button>
-    </a>
+
+  <!-- Background music -->
+  <audio id="bgm" loop>
+    <source src="music" type="audio/mpeg">
+  </audio>
+  <button id="audioToggle" class="audio-toggle" aria-pressed="false">🔈 Music: Off</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
