@@ -15,7 +15,13 @@
 - 🎨 **Modern UI/UX** - Glassmorphic design with gradient backgrounds
 - 🎯 **Playful Interactions** - "No" button cleverly evades the cursor
 
-[Live Demo:]
+## 🚀 Screenshots:
+![WhatsApp Image 2025-10-17 at 14 56 27_95c8ebc4](https://github.com/user-attachments/assets/c6e5f475-c6e0-4381-801b-7d13e4ea2be4)
+![WhatsApp Image 2025-10-17 at 15 00 45_5a32e8ba](https://github.com/user-attachments/assets/87fb1cf9-ddb2-45b8-8da8-37e1d6a5231e)
+![WhatsApp Image 2025-10-17 at 15 51 23_e1856ccc](https://github.com/user-attachments/assets/faccba33-358c-46b2-a9af-da2a651e2db2)
+![WhatsApp Image 2025-10-17 at 15 51 23_4c562212](https://github.com/user-attachments/assets/a5454aa6-7103-4946-8bc8-e8b834c3af6f)
+![WhatsApp Image 2025-10-17 at 15 53 40_dbf090b1](https://github.com/user-attachments/assets/09de2963-fb98-48e9-be62-c59b27965f9d)
+![WhatsApp Image 2025-10-17 at 15 54 32_57f3f3fc](https://github.com/user-attachments/assets/461ab163-cb64-420b-bad5-2200409f82e4)
 
 ## 🚀 Quick Start
 
