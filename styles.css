@@ -31,6 +31,7 @@ body {
   overflow-y: auto;
 }
 
+
 .card {
   width: min(720px, 95vw);
   background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.02));
