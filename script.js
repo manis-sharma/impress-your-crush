@@ -2,6 +2,8 @@ const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => document.querySelectorAll(sel);
 const clamp = (v,min,max) => Math.max(min, Math.min(max, v));
 
+
+
 // Photo Upload Management
 const uploadedPhotos = [];
 const photoInput = $('#photoInput');
